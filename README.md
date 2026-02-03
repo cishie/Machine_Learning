@@ -50,7 +50,7 @@ Les hyperparamètres ont été fixés de manière à privilégier des arbres peu
 #### 3.4 Modélisation du coût moyen
 Le coût moyen (CM) a été modélisé à l’aide d’un Gradient Boosting Regressor. Ce modèle permet de combiner plusieurs arbres de décision entraînés séquentiellement afin d’améliorer progressivement la qualité des prédictions, tout en contrôlant la variance.
 #### 3.5 Prédiction de la charge
-La charge finale a été obtenue en combinant les prédictions de la fréquence et du coût moyen,selon la relation :'CHARGE = FREQ×CM×ANNEE_ASSURANCE'.
+La charge finale a été obtenue en combinant les prédictions de la fréquence et du coût moyen,selon la relation :CHARGE = FREQ×CM×ANNEE_ASSURANCE'.
 Les performances ont été évaluées sur l’échantillon d’entraînement à l’aide de la racine de l’erreur quadratique moyenne (RMSE). Les prédictions finales sur l’échantillon test ont été exportées dans un fichier submission_test_2.csv.
 
 #### 4 Conclusion
