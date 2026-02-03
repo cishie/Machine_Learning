@@ -1,7 +1,7 @@
 # Statistique en Grande Dimension et Apprentissage
 ## TP – Projet-Master 2 Data Science-Université d’Angers - Département de Mathématiques
 ### 1. Introduction
-Ce projet s’inscrit dans le cadre du cours Statistique en Grande Dimension et Apprentissage du Master 2 Data Science de l’Université d’Angers. L’objectif est de mettre en œuvre les méthodes
+Ce projet s'minscrit dans le cadre du cours Statistique en Grande Dimension et Apprentissage du Master 2 Data Science de l’Université d’Angers. L’objectif est de mettre en œuvre les méthodes
 d’apprentissage statistique vues au cours du semestre, aussi bien sur des données synthétiques que sur des données réelles.
 Le travail est composé de deux parties. La première concerne un problème de régression supervisée en grande dimension, pour lequel l’objectif est de construire le meilleur prédicteur
 possible au sens de l’erreur quadratique moyenne. La seconde partie repose sur un data challenge issu de la plateforme ChallengeData, portant sur la prédiction de la charge sinistre d’un contrat d’assurance multirisque agricole.
@@ -50,7 +50,7 @@ Les hyperparamètres ont été fixés de manière à privilégier des arbres peu
 #### 3.4 Modélisation du coût moyen
 Le coût moyen (CM) a été modélisé à l’aide d’un Gradient Boosting Regressor. Ce modèle permet de combiner plusieurs arbres de décision entraînés séquentiellement afin d’améliorer progressivement la qualité des prédictions, tout en contrôlant la variance.
 #### 3.5 Prédiction de la charge
-La charge finale a été obtenue en combinant les prédictions de la fréquence et du coût moyen,selon la relation :CHARGE = FREQ×CM×ANNEE_ASSURANCE'.
+La charge finale a été obtenue en combinant les prédictions de la fréquence et du coût moyen,selon la relation :CHARGE = FREQ×CM×ANNEE_ASSURANCE.
 Les performances ont été évaluées sur l’échantillon d’entraînement à l’aide de la racine de l’erreur quadratique moyenne (RMSE). Les prédictions finales sur l’échantillon test ont été exportées dans un fichier submission_test_2.csv.
 
 #### 4.Conclusion
