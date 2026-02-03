@@ -1,8 +1,5 @@
 # Statistique en Grande Dimension et Apprentissage
-## TP–Projet– Master 2 Data Science
-## Université d’Angers
-## Département de Mathématiques
-## Année universitaire 2025–2026
+## TP–Projet– Master 2 Data Science-Université d’Angers-Département de Mathématiques
 ### 1. Introduction
 Ce projet s’inscrit dans le cadre du cours Statistique en Grande Dimension et Apprentissage du Master 2 Data Science de l’Université d’Angers. L’objectif est de mettre en œuvre les méthodes
 d’apprentissage statistique vues au cours du semestre, aussi bien sur des données synthétiques que sur des données réelles.
