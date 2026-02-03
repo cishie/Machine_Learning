@@ -53,7 +53,7 @@ Le coût moyen (CM) a été modélisé à l’aide d’un Gradient Boosting Regr
 La charge finale a été obtenue en combinant les prédictions de la fréquence et du coût moyen,selon la relation :CHARGE = FREQ×CM×ANNEE_ASSURANCE'.
 Les performances ont été évaluées sur l’échantillon d’entraînement à l’aide de la racine de l’erreur quadratique moyenne (RMSE). Les prédictions finales sur l’échantillon test ont été exportées dans un fichier submission_test_2.csv.
 
-#### 4 Conclusion
+#### 4.Conclusion
 Ce projet a permis de mettre en pratique les méthodes d’apprentissage statistique adaptées aux problèmes de grande dimension. La première partie a mis en évidence l’intérêt des méthodes dites ensemblistes pour des données synthétiques de forte dimension, tandis que la seconde partie
 a illustré la complexité des données réelles.
 Dans l’ensemble, ce travail souligne l’importance du prétraitement des données, du choix des modèles et de la validation rigoureuse des performances dans des problèmes de régression appliquée.
